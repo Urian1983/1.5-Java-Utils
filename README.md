@@ -1,8 +1,22 @@
 # 🧭 Java Utils Project
 
-A set of Java utilities to work with **directories**, **text files**, and **object serialization**, implemented with a simple **MVC pattern**.
+A set of Java utilities to work with **directories**, **text files**, and **object serialization**, implemented with a simple **MVC pattern**
+
+The project is divided en 3 parts:
+
+The first one are FileManager and the DirectoryManager classes who are under the package model.
+FileManager is used for managing files and for reading and writing in them. 
+DirectoryManager is used for managing folders, get information like date creation and for ordering them.
+
+Under the package view we have FileView and DirectoryView, originally they didn't exist but I decided to separate the management from the user interaction.
+Fileview is the user interface class for FileManager and DirectoryView is the user interace class for DirectoryManager. 
+
+At last, outside the level1 and level 2 packages we have the solutions for everyone of the 6 exercicies, instead of a single Main I decided to make a main for
+every one of them, for making them more easy to read.
 
 ---
+## Use of files
+You can use any carpet from your system to use the program, even any file inside the carpet. The program will ask you for the route for managing a specific folder and the files inside of it. 
 
 ## 📌 Exercises
 
